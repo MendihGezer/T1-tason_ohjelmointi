@@ -1,0 +1,10 @@
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\bin\Debug\Ekaprojekti.exe.config
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\bin\Debug\Ekaprojekti.exe
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\bin\Debug\Ekaprojekti.pdb
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\obj\Debug\Ekaprojekti.csprojAssemblyReference.cache
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\obj\Debug\Ekaprojekti.Form1.resources
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\obj\Debug\Ekaprojekti.Properties.Resources.resources
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\obj\Debug\Ekaprojekti.csproj.GenerateResource.cache
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\obj\Debug\Ekaprojekti.csproj.CoreCompileInputs.cache
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\obj\Debug\Ekaprojekti.exe
+C:\Users\mendih.gezer\Desktop\Repot\Ekaprojekti\Ekaprojekti\obj\Debug\Ekaprojekti.pdb
