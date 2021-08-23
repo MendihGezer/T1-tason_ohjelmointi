@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PaivaDTP = new System.Windows.Forms.DateTimePicker();
+            this.SynttariDTP = new System.Windows.Forms.DateTimePicker();
             this.LaskeBT = new System.Windows.Forms.Button();
-            this.IkaLB = new System.Windows.Forms.Label();
+            this.VuodetLB = new System.Windows.Forms.Label();
             this.KkLB = new System.Windows.Forms.Label();
             this.PaivaLB = new System.Windows.Forms.Label();
             this.TunnitLB = new System.Windows.Forms.Label();
@@ -38,13 +38,13 @@
             this.SsLB = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // PaivaDTP
+            // SynttariDTP
             // 
-            this.PaivaDTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaivaDTP.Location = new System.Drawing.Point(27, 39);
-            this.PaivaDTP.Name = "PaivaDTP";
-            this.PaivaDTP.Size = new System.Drawing.Size(352, 31);
-            this.PaivaDTP.TabIndex = 0;
+            this.SynttariDTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SynttariDTP.Location = new System.Drawing.Point(27, 39);
+            this.SynttariDTP.Name = "SynttariDTP";
+            this.SynttariDTP.Size = new System.Drawing.Size(352, 31);
+            this.SynttariDTP.TabIndex = 0;
             // 
             // LaskeBT
             // 
@@ -57,16 +57,16 @@
             this.LaskeBT.UseVisualStyleBackColor = true;
             this.LaskeBT.Click += new System.EventHandler(this.LaskeBT_Click);
             // 
-            // IkaLB
+            // VuodetLB
             // 
-            this.IkaLB.AutoSize = true;
-            this.IkaLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IkaLB.Location = new System.Drawing.Point(57, 108);
-            this.IkaLB.Name = "IkaLB";
-            this.IkaLB.Size = new System.Drawing.Size(40, 25);
-            this.IkaLB.TabIndex = 2;
-            this.IkaLB.Text = "Ikä";
-            this.IkaLB.Visible = false;
+            this.VuodetLB.AutoSize = true;
+            this.VuodetLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VuodetLB.Location = new System.Drawing.Point(57, 108);
+            this.VuodetLB.Name = "VuodetLB";
+            this.VuodetLB.Size = new System.Drawing.Size(80, 25);
+            this.VuodetLB.TabIndex = 2;
+            this.VuodetLB.Text = "Vuodet";
+            this.VuodetLB.Visible = false;
             // 
             // KkLB
             // 
@@ -134,9 +134,9 @@
             this.Controls.Add(this.TunnitLB);
             this.Controls.Add(this.PaivaLB);
             this.Controls.Add(this.KkLB);
-            this.Controls.Add(this.IkaLB);
+            this.Controls.Add(this.VuodetLB);
             this.Controls.Add(this.LaskeBT);
-            this.Controls.Add(this.PaivaDTP);
+            this.Controls.Add(this.SynttariDTP);
             this.Name = "Lomake";
             this.Text = "Ikälaskuri";
             this.ResumeLayout(false);
@@ -146,9 +146,9 @@
 
         #endregion
 
-        private System.Windows.Forms.DateTimePicker PaivaDTP;
+        private System.Windows.Forms.DateTimePicker SynttariDTP;
         private System.Windows.Forms.Button LaskeBT;
-        private System.Windows.Forms.Label IkaLB;
+        private System.Windows.Forms.Label VuodetLB;
         private System.Windows.Forms.Label KkLB;
         private System.Windows.Forms.Label PaivaLB;
         private System.Windows.Forms.Label TunnitLB;
