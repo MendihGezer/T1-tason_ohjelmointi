@@ -1,0 +1,9 @@
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\bin\Debug\Harjoitus 1.exe.config
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\bin\Debug\Harjoitus 1.exe
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\bin\Debug\Harjoitus 1.pdb
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\obj\Debug\Harjoitus_1.Form1.resources
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\obj\Debug\Harjoitus_1.Properties.Resources.resources
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\obj\Debug\Harjoitus 1.csproj.GenerateResource.cache
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\obj\Debug\Harjoitus 1.csproj.CoreCompileInputs.cache
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\obj\Debug\Harjoitus 1.exe
+C:\Users\mendih.gezer\source\repos\Harjoitus 1\Harjoitus 1\obj\Debug\Harjoitus 1.pdb
