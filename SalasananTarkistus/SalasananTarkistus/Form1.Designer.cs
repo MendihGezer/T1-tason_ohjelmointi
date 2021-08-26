@@ -56,7 +56,7 @@
             this.SalasanaPanel.ForeColor = System.Drawing.Color.Gold;
             this.SalasanaPanel.Location = new System.Drawing.Point(0, 0);
             this.SalasanaPanel.Name = "SalasanaPanel";
-            this.SalasanaPanel.Size = new System.Drawing.Size(735, 226);
+            this.SalasanaPanel.Size = new System.Drawing.Size(748, 182);
             this.SalasanaPanel.TabIndex = 0;
             this.SalasanaPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SalasanaPanel_Paint);
             // 
@@ -118,12 +118,11 @@
             this.VirheViestiLB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.VirheViestiLB.Font = new System.Drawing.Font("Myriad Hebrew", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VirheViestiLB.ForeColor = System.Drawing.Color.Gold;
-            this.VirheViestiLB.Location = new System.Drawing.Point(190, 129);
+            this.VirheViestiLB.Location = new System.Drawing.Point(200, 129);
             this.VirheViestiLB.Name = "VirheViestiLB";
-            this.VirheViestiLB.Size = new System.Drawing.Size(533, 29);
+            this.VirheViestiLB.Size = new System.Drawing.Size(498, 29);
             this.VirheViestiLB.TabIndex = 5;
             this.VirheViestiLB.Text = "Virhe";
-            this.VirheViestiLB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.VirheViestiLB.Visible = false;
             // 
             // SalasanaOikeinPanel
@@ -135,7 +134,7 @@
             this.SalasanaOikeinPanel.ForeColor = System.Drawing.Color.Snow;
             this.SalasanaOikeinPanel.Location = new System.Drawing.Point(0, 0);
             this.SalasanaOikeinPanel.Name = "SalasanaOikeinPanel";
-            this.SalasanaOikeinPanel.Size = new System.Drawing.Size(735, 226);
+            this.SalasanaOikeinPanel.Size = new System.Drawing.Size(748, 182);
             this.SalasanaOikeinPanel.TabIndex = 1;
             this.SalasanaOikeinPanel.Visible = false;
             // 
@@ -154,7 +153,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(735, 226);
+            this.ClientSize = new System.Drawing.Size(748, 182);
             this.Controls.Add(this.SalasanaPanel);
             this.Name = "SalasanaForm";
             this.Text = "Salasanan Tarkistus";

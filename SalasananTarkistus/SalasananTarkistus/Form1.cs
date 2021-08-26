@@ -26,7 +26,7 @@ namespace SalasananTarkistus
 
         private void TarkistaBT_Click(object sender, EventArgs e)
         {
-            if(KayttajaTB.Text == "Memo" && SalasanaTB.Text == "123")
+            if(KayttajaTB.Text == "memo" && SalasanaTB.Text == "123")
             {
                 SalasanaPanel.Visible = false;
                 SalasanaOikeinPanel.Visible = true;
