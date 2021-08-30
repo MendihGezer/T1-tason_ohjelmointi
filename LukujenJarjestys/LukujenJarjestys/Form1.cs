@@ -18,43 +18,35 @@ namespace LukujenJarjestys
             InitializeComponent();
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        private void uusiLukuTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-
-                if(uusilukuTB.Text == "-999")
+                if(uusiLukuTB.Text == "-999")
                 {
                     VastausLB.Text = "";
-                    int[] jonot = jono.ToArray();
-                    Array.Sort(jonot);
-                    foreach (var item in jonot)
+                    int[] taulukko = jono.ToArray();
+                    Array.Sort(taulukko);
+                    foreach(var jasen in taulukko)
                     {
-                        VastausLB.Text += item + " ";
+                        VastausLB.Text += jasen + " ";
                     }
-
-                    else
-                    {
-
-                        jono.Add(Int32.Parse(uusilukuTB.Text));
-                        uusilukuTB.Text = "";
-
-                    }
-
-                    
-
-                }
-                 
-                if (e.KeyChar == (char)Keys.Escape)
+                    VastausLB.Visible = true;
+                }   
+                else
                 {
-
-                    TyhjaaLomake();
-
-
+                    jono.Add(Int32.Parse(uusiLukuTB.Text));
+                    uusiLukuTB.Text = "";
                 }
-
-
             }
+            if (e.KeyChar == (char)Keys.Escape)
+            {
+                TyhjaaLomake();
+            }
+        }
+        private void TyhjaaLomake()
+        {
+            uusiLukuTB.Text = "";
         }
     }
 }

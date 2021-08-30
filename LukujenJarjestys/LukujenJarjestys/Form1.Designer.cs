@@ -29,51 +29,50 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.uusiLukuTB = new System.Windows.Forms.TextBox();
+            this.VastausLB = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Myriad Hebrew", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(64, 69);
+            this.label1.Font = new System.Drawing.Font("Myriad Hebrew", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(25, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 25);
+            this.label1.Size = new System.Drawing.Size(177, 19);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Anna luku (-999):";
+            this.label1.Text = "Anna luku (-999 lopetus):";
             // 
-            // textBox1
+            // uusiLukuTB
             // 
-            this.textBox1.Font = new System.Drawing.Font("Myriad Hebrew", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(234, 66);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 33);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.uusiLukuTB.Font = new System.Drawing.Font("Myriad Hebrew", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uusiLukuTB.Location = new System.Drawing.Point(208, 19);
+            this.uusiLukuTB.Name = "uusiLukuTB";
+            this.uusiLukuTB.Size = new System.Drawing.Size(112, 27);
+            this.uusiLukuTB.TabIndex = 1;
+            this.uusiLukuTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uusiLukuTB_KeyPress);
             // 
-            // label2
+            // VastausLB
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Myriad Hebrew", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(69, 137);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
-            this.label2.Visible = false;
+            this.VastausLB.AutoSize = true;
+            this.VastausLB.Font = new System.Drawing.Font("Myriad Hebrew", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VastausLB.Location = new System.Drawing.Point(26, 58);
+            this.VastausLB.Name = "VastausLB";
+            this.VastausLB.Size = new System.Drawing.Size(58, 19);
+            this.VastausLB.TabIndex = 2;
+            this.VastausLB.Text = "Vastaus";
+            this.VastausLB.Visible = false;
             // 
             // LukujenJarjestys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MintCream;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(340, 91);
+            this.Controls.Add(this.VastausLB);
+            this.Controls.Add(this.uusiLukuTB);
             this.Controls.Add(this.label1);
             this.Name = "LukujenJarjestys";
-            this.Text = "Lukujen järjestys";
+            this.Text = "Lukujen Järjestys";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -82,8 +81,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox uusiLukuTB;
+        private System.Windows.Forms.Label VastausLB;
     }
 }
 
