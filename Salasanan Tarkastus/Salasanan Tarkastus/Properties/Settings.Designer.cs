@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SalasananTarkistus.Properties
+namespace Salasanan_Tarkastus.Properties
 {
 
 

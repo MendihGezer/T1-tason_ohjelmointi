@@ -8,40 +8,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SalasananTarkistus
+namespace Salasanan_Tarkastus
 {
-    public partial class SalasanaForm : Form
+    public partial class SalasanaForm : System.Windows.Forms.Form
     {
         public SalasanaForm()
         {
             InitializeComponent();
         }
 
-        private void SalasanaPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-
-
-        }
-
         private void TarkistaBT_Click(object sender, EventArgs e)
         {
-            if(KayttajaTB.Text == "memo" && SalasanaTB.Text == "123")
+            if (KayttajaTB.Text == "memo" && SalasanaTB.Text == "123")
             {
                 SalasanaPanel.Visible = false;
                 SalasanaOikeinPanel.Visible = true;
-
             }
             else
             {
-
-                VirheViestiLB.Text = "Käyttäjätunnus tai salasana virheellinen!";
-                VirheViestiLB.Visible = true;
-
+                VirheviestiLB.Text = "Käyttäjätunnus tai salasana on virheellinen";
+                VirheviestiLB.Visible = true;
             }
-
         }
-
-
     }
 }

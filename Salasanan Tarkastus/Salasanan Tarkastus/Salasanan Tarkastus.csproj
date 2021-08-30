@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B4699E95-BFE2-4B10-80BD-02B18C07877B}</ProjectGuid>
+    <ProjectGuid>{B59C15DB-7A47-4CB2-A60F-F89DEB335AAB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SalasananTarkistus</RootNamespace>
-    <AssemblyName>SalasananTarkistus</AssemblyName>
+    <RootNamespace>Salasanan_Tarkastus</RootNamespace>
+    <AssemblyName>Salasanan Tarkastus</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
