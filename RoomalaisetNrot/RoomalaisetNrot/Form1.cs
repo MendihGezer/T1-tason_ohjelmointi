@@ -16,5 +16,10 @@ namespace RoomalaisetNrot
         {
             InitializeComponent();
         }
+
+        private void MuutaBT_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

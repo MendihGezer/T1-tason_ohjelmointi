@@ -81,12 +81,13 @@
             // 
             this.MuutaBT.BackColor = System.Drawing.Color.White;
             this.MuutaBT.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MuutaBT.Location = new System.Drawing.Point(577, 204);
+            this.MuutaBT.Location = new System.Drawing.Point(599, 204);
             this.MuutaBT.Name = "MuutaBT";
             this.MuutaBT.Size = new System.Drawing.Size(110, 45);
             this.MuutaBT.TabIndex = 4;
             this.MuutaBT.Text = "Muuta";
             this.MuutaBT.UseVisualStyleBackColor = false;
+            this.MuutaBT.Click += new System.EventHandler(this.MuutaBT_Click);
             // 
             // Lomake
             // 
