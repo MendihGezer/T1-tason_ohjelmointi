@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26E0C418-BD89-4B72-B791-7BC849DA2859}</ProjectGuid>
+    <ProjectGuid>{5FA434B9-D88A-4824-B6BE-7652425ACC34}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>RoomalaisetNrot</RootNamespace>
     <AssemblyName>RoomalaisetNrot</AssemblyName>
@@ -81,13 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\R.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\romannumerals.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\golden-clock.jpg" />
+    <None Include="Resources\romannumerals.jpg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

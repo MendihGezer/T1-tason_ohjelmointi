@@ -63,29 +63,9 @@ namespace RoomalaisetNrot.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap golden_clock {
+        internal static System.Drawing.Bitmap romannumerals_jpg {
             get {
-                object obj = ResourceManager.GetObject("golden-clock", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap R {
-            get {
-                object obj = ResourceManager.GetObject("R", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap romannumerals {
-            get {
-                object obj = ResourceManager.GetObject("romannumerals", resourceCulture);
+                object obj = ResourceManager.GetObject("romannumerals.jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
