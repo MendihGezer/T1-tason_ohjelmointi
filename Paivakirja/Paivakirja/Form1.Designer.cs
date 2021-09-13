@@ -1,6 +1,6 @@
 ﻿namespace Paivakirja
 {
-    partial class PaivakirjaForm
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -34,37 +34,34 @@
             // 
             // SyotaTB
             // 
-            this.SyotaTB.Location = new System.Drawing.Point(5, 14);
-            this.SyotaTB.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.SyotaTB.Location = new System.Drawing.Point(13, 13);
             this.SyotaTB.Multiline = true;
             this.SyotaTB.Name = "SyotaTB";
-            this.SyotaTB.Size = new System.Drawing.Size(647, 258);
+            this.SyotaTB.Size = new System.Drawing.Size(575, 312);
             this.SyotaTB.TabIndex = 0;
-            this.SyotaTB.TextChanged += new System.EventHandler(this.SyotaTB_TextChanged);
             // 
             // TallennaBT
             // 
-            this.TallennaBT.BackColor = System.Drawing.Color.PeachPuff;
-            this.TallennaBT.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TallennaBT.Location = new System.Drawing.Point(5, 282);
-            this.TallennaBT.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.TallennaBT.BackColor = System.Drawing.Color.Cornsilk;
+            this.TallennaBT.Location = new System.Drawing.Point(13, 332);
             this.TallennaBT.Name = "TallennaBT";
-            this.TallennaBT.Size = new System.Drawing.Size(647, 54);
+            this.TallennaBT.Size = new System.Drawing.Size(575, 74);
             this.TallennaBT.TabIndex = 1;
-            this.TallennaBT.Text = "Tallenna päivään";
+            this.TallennaBT.Text = "Tallenna päivääsi";
             this.TallennaBT.UseVisualStyleBackColor = false;
+            this.TallennaBT.Click += new System.EventHandler(this.TallennaBT_Click);
             // 
-            // PaivakirjaForm
+            // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(660, 353);
+            this.BackColor = System.Drawing.Color.PeachPuff;
+            this.ClientSize = new System.Drawing.Size(600, 418);
             this.Controls.Add(this.TallennaBT);
             this.Controls.Add(this.SyotaTB);
-            this.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "PaivakirjaForm";
+            this.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Name = "Form1";
             this.Text = "Päiväkirja";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7DE22581-3F5F-4838-BB1B-708473928CBF}</ProjectGuid>
+    <ProjectGuid>{0B76BCE9-0803-4D1D-AB05-61152C972BEB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Paivakirja</RootNamespace>
     <AssemblyName>Paivakirja</AssemblyName>

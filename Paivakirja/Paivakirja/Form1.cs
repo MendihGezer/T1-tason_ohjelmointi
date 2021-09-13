@@ -11,14 +11,14 @@ using System.IO;
 
 namespace Paivakirja
 {
-    public partial class PaivakirjaForm : Form
+    public partial class Form1 : Form
     {
-        public PaivakirjaForm()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void SyotaTB_TextChanged(object sender, EventArgs e)
+        private void TallennaBT_Click(object sender, EventArgs e)
         {
             string teksti = File.ReadAllText(@"C:\\Users\\mendih.gezer\\source\\repos\\T1-tason_ohjelmointi\\Paivakirja\\paivakirja.txt");
             teksti += SyotaTB.Text;
