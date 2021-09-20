@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{32ECC184-7980-43EE-9C1A-FB84ACD356A0}</ProjectGuid>
+    <ProjectGuid>{33BE5136-E33A-401E-8EF8-B3A424715B40}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Oppilaitosten_avainhenkilot</RootNamespace>
     <AssemblyName>Oppilaitosten avainhenkilot</AssemblyName>
