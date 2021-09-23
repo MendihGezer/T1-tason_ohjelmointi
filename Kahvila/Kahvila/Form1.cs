@@ -23,7 +23,7 @@ namespace Kahvila
         {
             MeistaLB.Text = "Keudan oppilaskunnan kahvila palvelee luokassa 320 välituntisin \n";
             MeistaLB.Text += "9:00 - 14.30 joka päivä maanantaista torstaisin ja perjantaisin \n";
-            MeistaLB.Text += "9:00 - 12.30. \n\n Keudan oppilaskunnan kahvilasta saa lämpimien \n";
+            MeistaLB.Text += "9:00 - 12.30. \n\nKeudan oppilaskunnan kahvilasta saa lämpimien \n";
             MeistaLB.Text += "juomien lisäksi virvokkeita sekä pientä purtavaa sekä makeisia \n";
             MeistaLB.Text += "Tervetuloa tutustumaan!";
             MeistaLB.Font = new Font("Arial", 12);
