@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.TietotauluDG = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.oidLB = new System.Windows.Forms.Label();
+            this.enimiLB = new System.Windows.Forms.Label();
+            this.snimiLB = new System.Windows.Forms.Label();
+            this.puhLB = new System.Windows.Forms.Label();
+            this.spostiLB = new System.Windows.Forms.Label();
+            this.onroLB = new System.Windows.Forms.Label();
+            this.OidTB = new System.Windows.Forms.TextBox();
+            this.EnimiTB = new System.Windows.Forms.TextBox();
+            this.SnimiTB = new System.Windows.Forms.TextBox();
+            this.ONroTB = new System.Windows.Forms.TextBox();
+            this.SpostiTB = new System.Windows.Forms.TextBox();
+            this.PuhTB = new System.Windows.Forms.TextBox();
             this.tyhjennaBT = new System.Windows.Forms.Button();
             this.tallennaBT = new System.Windows.Forms.Button();
             this.paivitaBT = new System.Windows.Forms.Button();
@@ -52,106 +52,109 @@
             // 
             this.TietotauluDG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.TietotauluDG.Location = new System.Drawing.Point(15, 185);
-            this.TietotauluDG.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.TietotauluDG.Margin = new System.Windows.Forms.Padding(6);
             this.TietotauluDG.Name = "TietotauluDG";
             this.TietotauluDG.Size = new System.Drawing.Size(1115, 379);
             this.TietotauluDG.TabIndex = 0;
+            this.TietotauluDG.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TietotauluDG_CellClick);
+            this.TietotauluDG.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TietotauluDG_CellContentClick);
             // 
-            // label1
+            // oidLB
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 24);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ID:";
+            this.oidLB.AutoSize = true;
+            this.oidLB.Location = new System.Drawing.Point(10, 24);
+            this.oidLB.Name = "oidLB";
+            this.oidLB.Size = new System.Drawing.Size(37, 25);
+            this.oidLB.TabIndex = 1;
+            this.oidLB.Text = "ID:";
             // 
-            // label2
+            // enimiLB
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "ETUNIMI:";
+            this.enimiLB.AutoSize = true;
+            this.enimiLB.Location = new System.Drawing.Point(10, 63);
+            this.enimiLB.Name = "enimiLB";
+            this.enimiLB.Size = new System.Drawing.Size(98, 25);
+            this.enimiLB.TabIndex = 2;
+            this.enimiLB.Text = "ETUNIMI:";
             // 
-            // label3
+            // snimiLB
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 102);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 25);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "SUKUNIMI:";
+            this.snimiLB.AutoSize = true;
+            this.snimiLB.Location = new System.Drawing.Point(10, 102);
+            this.snimiLB.Name = "snimiLB";
+            this.snimiLB.Size = new System.Drawing.Size(114, 25);
+            this.snimiLB.TabIndex = 3;
+            this.snimiLB.Text = "SUKUNIMI:";
             // 
-            // label4
+            // puhLB
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(335, 24);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 25);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "PUHELIN:";
+            this.puhLB.AutoSize = true;
+            this.puhLB.Location = new System.Drawing.Point(335, 24);
+            this.puhLB.Name = "puhLB";
+            this.puhLB.Size = new System.Drawing.Size(99, 25);
+            this.puhLB.TabIndex = 4;
+            this.puhLB.Text = "PUHELIN:";
             // 
-            // label5
+            // spostiLB
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(335, 63);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 25);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "SÄHKÖPOSTI:";
+            this.spostiLB.AutoSize = true;
+            this.spostiLB.Location = new System.Drawing.Point(335, 63);
+            this.spostiLB.Name = "spostiLB";
+            this.spostiLB.Size = new System.Drawing.Size(138, 25);
+            this.spostiLB.TabIndex = 5;
+            this.spostiLB.Text = "SÄHKÖPOSTI:";
             // 
-            // label6
+            // onroLB
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(335, 102);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 25);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "OPISKELIJANRO:";
+            this.onroLB.AutoSize = true;
+            this.onroLB.Location = new System.Drawing.Point(335, 102);
+            this.onroLB.Name = "onroLB";
+            this.onroLB.Size = new System.Drawing.Size(162, 25);
+            this.onroLB.TabIndex = 6;
+            this.onroLB.Text = "OPISKELIJANRO:";
             // 
-            // textBox1
+            // OidTB
             // 
-            this.textBox1.Location = new System.Drawing.Point(125, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 33);
-            this.textBox1.TabIndex = 7;
+            this.OidTB.Enabled = false;
+            this.OidTB.Location = new System.Drawing.Point(125, 21);
+            this.OidTB.Name = "OidTB";
+            this.OidTB.Size = new System.Drawing.Size(195, 33);
+            this.OidTB.TabIndex = 7;
             // 
-            // textBox2
+            // EnimiTB
             // 
-            this.textBox2.Location = new System.Drawing.Point(125, 60);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 33);
-            this.textBox2.TabIndex = 8;
+            this.EnimiTB.Location = new System.Drawing.Point(125, 60);
+            this.EnimiTB.Name = "EnimiTB";
+            this.EnimiTB.Size = new System.Drawing.Size(195, 33);
+            this.EnimiTB.TabIndex = 8;
             // 
-            // textBox3
+            // SnimiTB
             // 
-            this.textBox3.Location = new System.Drawing.Point(125, 99);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(195, 33);
-            this.textBox3.TabIndex = 9;
+            this.SnimiTB.Location = new System.Drawing.Point(125, 99);
+            this.SnimiTB.Name = "SnimiTB";
+            this.SnimiTB.Size = new System.Drawing.Size(195, 33);
+            this.SnimiTB.TabIndex = 9;
             // 
-            // textBox4
+            // ONroTB
             // 
-            this.textBox4.Location = new System.Drawing.Point(498, 102);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(266, 33);
-            this.textBox4.TabIndex = 12;
+            this.ONroTB.Location = new System.Drawing.Point(498, 102);
+            this.ONroTB.Name = "ONroTB";
+            this.ONroTB.Size = new System.Drawing.Size(266, 33);
+            this.ONroTB.TabIndex = 12;
             // 
-            // textBox5
+            // SpostiTB
             // 
-            this.textBox5.Location = new System.Drawing.Point(498, 63);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(266, 33);
-            this.textBox5.TabIndex = 11;
+            this.SpostiTB.Location = new System.Drawing.Point(498, 63);
+            this.SpostiTB.Name = "SpostiTB";
+            this.SpostiTB.Size = new System.Drawing.Size(266, 33);
+            this.SpostiTB.TabIndex = 11;
             // 
-            // textBox6
+            // PuhTB
             // 
-            this.textBox6.Location = new System.Drawing.Point(498, 24);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(266, 33);
-            this.textBox6.TabIndex = 10;
+            this.PuhTB.Location = new System.Drawing.Point(498, 24);
+            this.PuhTB.Name = "PuhTB";
+            this.PuhTB.Size = new System.Drawing.Size(266, 33);
+            this.PuhTB.TabIndex = 10;
             // 
             // tyhjennaBT
             // 
@@ -161,6 +164,7 @@
             this.tyhjennaBT.TabIndex = 13;
             this.tyhjennaBT.Text = "TYHJENNÄ";
             this.tyhjennaBT.UseVisualStyleBackColor = true;
+            this.tyhjennaBT.Click += new System.EventHandler(this.tyhjennaBT_Click);
             // 
             // tallennaBT
             // 
@@ -170,6 +174,7 @@
             this.tallennaBT.TabIndex = 14;
             this.tallennaBT.Text = "TALLENNA";
             this.tallennaBT.UseVisualStyleBackColor = true;
+            this.tallennaBT.Click += new System.EventHandler(this.tallennaBT_Click);
             // 
             // paivitaBT
             // 
@@ -179,6 +184,7 @@
             this.paivitaBT.TabIndex = 15;
             this.paivitaBT.Text = "PÄIVITÄ";
             this.paivitaBT.UseVisualStyleBackColor = true;
+            this.paivitaBT.Click += new System.EventHandler(this.paivitaBT_Click);
             // 
             // poistaBT
             // 
@@ -188,6 +194,7 @@
             this.poistaBT.TabIndex = 16;
             this.poistaBT.Text = "POISTA";
             this.poistaBT.UseVisualStyleBackColor = true;
+            this.poistaBT.Click += new System.EventHandler(this.poistaBT_Click);
             // 
             // opiskelijarekisteriForm
             // 
@@ -198,23 +205,24 @@
             this.Controls.Add(this.paivitaBT);
             this.Controls.Add(this.tallennaBT);
             this.Controls.Add(this.tyhjennaBT);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ONroTB);
+            this.Controls.Add(this.SpostiTB);
+            this.Controls.Add(this.PuhTB);
+            this.Controls.Add(this.SnimiTB);
+            this.Controls.Add(this.EnimiTB);
+            this.Controls.Add(this.OidTB);
+            this.Controls.Add(this.onroLB);
+            this.Controls.Add(this.spostiLB);
+            this.Controls.Add(this.puhLB);
+            this.Controls.Add(this.snimiLB);
+            this.Controls.Add(this.enimiLB);
+            this.Controls.Add(this.oidLB);
             this.Controls.Add(this.TietotauluDG);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "opiskelijarekisteriForm";
             this.Text = "Opiskelijarekisterin ylläpito";
+            this.Load += new System.EventHandler(this.opiskelijarekisteriForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TietotauluDG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -224,18 +232,18 @@
         #endregion
 
         private System.Windows.Forms.DataGridView TietotauluDG;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label oidLB;
+        private System.Windows.Forms.Label enimiLB;
+        private System.Windows.Forms.Label snimiLB;
+        private System.Windows.Forms.Label puhLB;
+        private System.Windows.Forms.Label spostiLB;
+        private System.Windows.Forms.Label onroLB;
+        private System.Windows.Forms.TextBox OidTB;
+        private System.Windows.Forms.TextBox EnimiTB;
+        private System.Windows.Forms.TextBox SnimiTB;
+        private System.Windows.Forms.TextBox ONroTB;
+        private System.Windows.Forms.TextBox SpostiTB;
+        private System.Windows.Forms.TextBox PuhTB;
         private System.Windows.Forms.Button tyhjennaBT;
         private System.Windows.Forms.Button tallennaBT;
         private System.Windows.Forms.Button paivitaBT;

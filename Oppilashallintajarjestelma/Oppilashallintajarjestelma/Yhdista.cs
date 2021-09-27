@@ -12,10 +12,10 @@ namespace Oppilashallintajarjestelma
     {
         public string yhteyslause()
         {
-            return "datasource=localhost; port=8012;username=root;password=;database=opiskelijat";
+            return "datasource=localhost; port=3306;username=root;password=;database=opiskelijat";
         }
 
-        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=8012;username=root;password=;database=opiskelijat");
+        private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306;username=root;password=;database=opiskelijat; SSL Mode = None");
          public MySqlConnection otaYhteys()
         {
             return yhteys;
