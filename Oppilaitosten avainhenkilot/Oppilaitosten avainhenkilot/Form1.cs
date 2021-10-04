@@ -23,9 +23,10 @@ namespace Oppilaitosten_avainhenkilot
         private void OppilaitosForm_Load(object sender, EventArgs e)
         {
             taytaOppilaitosTaulukko();
+            taytaVastuuHenkilotTaulukko();
             OppilaitosCB.DataSource = oppilaitos;
             OppilaitosCB.DisplayMember = "ONimi";
-            taytaVastuuHenkilotTaulukko();
+            
         }
 
         private void OppilaitosCB_SelectedIndexChanged(object sender, EventArgs e)
@@ -37,9 +38,9 @@ namespace Oppilaitosten_avainhenkilot
             PostitoimipaikkaLB.Text = oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OPostitoimipaikka"].ToString();
             Puhnum1LB.Text = oppilaitos.Rows[OppilaitosCB.SelectedIndex]["OPuhelin"].ToString();
 
-            /*yhteys = vastuuHenkilot.Select("OID =" + viite).CopyToDataTable();
+            yhteys = vastuuHenkilot.Select("OID =" + viite).CopyToDataTable();
             VastuuhenkiloCB.DataSource = yhteys;
-            VastuuhenkiloCB.DisplayMember = "VNimi";*/
+            VastuuhenkiloCB.DisplayMember = "VNimi";
         }
 
         private void taytaOppilaitosTaulukko()
@@ -61,7 +62,7 @@ namespace Oppilaitosten_avainhenkilot
         {
             vastuuHenkilot.Columns.Add("OID", typeof(int));
             vastuuHenkilot.Columns.Add("VNimi");
-            vastuuHenkilot.Columns.Add("VKatuosoite");
+            vastuuHenkilot.Columns.Add("VTitteli");
             vastuuHenkilot.Columns.Add("VSijainti");
             vastuuHenkilot.Columns.Add("VsPosti");
             vastuuHenkilot.Columns.Add("VPuhelin");
@@ -92,7 +93,7 @@ namespace Oppilaitosten_avainhenkilot
         {
             NimikeLB.Text = yhteys.Rows[VastuuhenkiloCB.SelectedIndex]["VTitteli"].ToString();
             OsastoLB.Text = yhteys.Rows[VastuuhenkiloCB.SelectedIndex]["VSijainti"].ToString();
-            SpostiLB.Text = yhteys.Rows[VastuuhenkiloCB.SelectedIndex]["VSahkoposti"].ToString();
+            SpostiLB.Text = yhteys.Rows[VastuuhenkiloCB.SelectedIndex]["VsPosti"].ToString();
             Puhnum2LB.Text = yhteys.Rows[VastuuhenkiloCB.SelectedIndex]["VPuhelin"].ToString();
         }
     }
