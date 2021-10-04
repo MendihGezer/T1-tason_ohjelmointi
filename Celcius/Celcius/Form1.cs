@@ -25,13 +25,13 @@ namespace Celcius
             {
 
                 vastaus = asteet * 1.8 + 32;
-                VastausLB.Text = asteet + " Fahrenheitia on " + vastaus + " Celcius astetta";
+                VastausLB.Text = asteet + " Celciusta on " + vastaus + " Fahrenheit astetta";
                 VastausLB.Visible = true;
             }
             else if(FahrenheitRB.Checked)
             {
                 vastaus = (asteet - 32) / 1.8;
-                VastausLB.Text = asteet + " Celciusta on " + vastaus + " Fahrenheit astetta";
+                VastausLB.Text = asteet + " Fahrenheittia on " + vastaus + " Celcius astetta";
                 VastausLB.Visible = true;
             }
             else
