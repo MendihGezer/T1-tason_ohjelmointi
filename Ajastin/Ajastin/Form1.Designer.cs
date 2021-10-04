@@ -110,6 +110,7 @@
             // 
             // TimerTM
             // 
+            this.TimerTM.Interval = 1000;
             this.TimerTM.Tick += new System.EventHandler(this.TimerTM_Tick);
             // 
             // TimerForm
@@ -126,7 +127,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.MinuutitLB);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "TimerForm";
             this.Text = "Timer";
             this.Load += new System.EventHandler(this.TimerForm_Load);
