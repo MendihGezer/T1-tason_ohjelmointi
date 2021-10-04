@@ -8,3 +8,13 @@ C:\Users\mendih.gezer\Desktop\Repot\Laskin\Laskin\bin\Debug\Laskin.exe
 C:\Users\mendih.gezer\Desktop\Repot\Laskin\Laskin\bin\Debug\Laskin.pdb
 C:\Users\mendih.gezer\Desktop\Repot\Laskin\Laskin\obj\Debug\Laskin.exe
 C:\Users\mendih.gezer\Desktop\Repot\Laskin\Laskin\obj\Debug\Laskin.pdb
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\bin\Debug\Laskin.exe.config
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\bin\Debug\Laskin.exe
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\bin\Debug\Laskin.pdb
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\obj\Debug\Laskin.csproj.AssemblyReference.cache
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\obj\Debug\Laskin.Laskin.resources
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\obj\Debug\Laskin.Properties.Resources.resources
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\obj\Debug\Laskin.csproj.GenerateResource.cache
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\obj\Debug\Laskin.csproj.CoreCompileInputs.cache
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\obj\Debug\Laskin.exe
+C:\Users\mendih.gezer\source\repos\T1-tason_ohjelmointi\Laskin\Laskin\obj\Debug\Laskin.pdb

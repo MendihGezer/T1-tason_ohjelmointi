@@ -36,7 +36,7 @@ namespace Laskin
                 case "*":
                     vastaus = luku1 * luku2;
                     break;
-                case "/:":
+                case "/":
                     vastaus = luku1 / luku2;
                     break;
                 default:

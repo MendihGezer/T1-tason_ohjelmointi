@@ -10,12 +10,15 @@ namespace Oppilashallintajarjestelma
 {
     class Yhdista
     {
+        // Luokan avulla muodostetaan yhteys MySQL-tietokantaan.
+
         public string yhteyslause()
         {
             return "datasource=localhost; port=3306;username=root;password=;database=opiskelijat";
         }
 
         private MySqlConnection yhteys = new MySqlConnection("datasource=localhost; port=3306;username=root;password=;database=opiskelijat; SSL Mode = None");
+        // Luodaan funktio yhteyttä varten
          public MySqlConnection otaYhteys()
         {
             return yhteys;
