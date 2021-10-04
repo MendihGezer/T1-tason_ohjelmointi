@@ -12,15 +12,18 @@ namespace _10_Kysymysta
 {
     public partial class LomakeForm : Form
     {
+        string[] oikeatVastaukset = new string[] { "B","D","A","A","C","A","B","A","C","D" };
+        string[] vastaukset = new string[10];
         int laskuri = 0;
         int oikein = 0;
-        string[] oikeatVastaukset = new string[] { "B", "D", "A", "A", "C", "A", "B", "A", "C", "D" };
-        string[] vastaukset = new string[10];
         public LomakeForm()
         {
             InitializeComponent();
             ARB.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
-
+            BRB.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
+            CRB.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
+            DRB.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
+           
         }
 
         private void LomakeForm_Load(object sender, EventArgs e)
@@ -34,7 +37,7 @@ namespace _10_Kysymysta
                 RadioButton radioButton = (RadioButton)sender;
                 vastaukset[laskuri] = radioButton.Text;
                 laskuri++;
-                KysymysLB.Text = "Vastaus " + laskuri + ". kysymykseen:";
+                KysymysLB.Text = "Vastaus " + (laskuri) + ". kysymykseen:";
             }
             else
             {
