@@ -48,23 +48,24 @@ namespace RoomalaisetNrot
                 vastaus += kympit(luku3, vastaus);
                 vastaus += ykkoset(luku4, vastaus); 
             }
-            if(RomTB.Text.Length >2)
+            else if(RomTB.Text.Length >2)
             {
-                luku2 = Convert.ToInt32(RomTB.Text.Substring(1, 1));
-                luku3 = Convert.ToInt32(RomTB.Text.Substring(2, 1));
-                luku4 = Convert.ToInt32(RomTB.Text.Substring(3, 1));
+                luku2 = Convert.ToInt32(RomTB.Text.Substring(0, 1));
+                luku3 = Convert.ToInt32(RomTB.Text.Substring(1, 1));
+                luku4 = Convert.ToInt32(RomTB.Text.Substring(2, 1));
                 vastaus += sataset(luku2, vastaus);
                 vastaus += kympit(luku3, vastaus);
                 vastaus += ykkoset(luku4, vastaus);
             }
-            if (RomTB.Text.Length > 1)
+
+            else if(RomTB.Text.Length >1)
             {
                 luku3 = Convert.ToInt32(RomTB.Text.Substring(0, 1));
                 luku4 = Convert.ToInt32(RomTB.Text.Substring(1, 1));
                 vastaus += kympit(luku3, vastaus);
                 vastaus += ykkoset(luku4, vastaus);
             }
-            if (RomTB.Text.Length > 0)
+            else if (RomTB.Text.Length > 0)
             {
                 luku4 = Convert.ToInt32(RomTB.Text.Substring(0, 1));
                 vastaus += ykkoset(luku4, vastaus);
