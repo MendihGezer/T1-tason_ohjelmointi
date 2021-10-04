@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -20,6 +21,7 @@ namespace Noppaheitto
         private void HeitaBT_Click(object sender, EventArgs e)
         {
             piirraNoppa(noppa01PB);
+            Thread.Sleep(50);
             piirraNoppa(noppa02PB);
         }
         private void piirraNoppa(PictureBox NoppaBox)
